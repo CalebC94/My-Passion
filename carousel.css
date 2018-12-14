@@ -26,10 +26,14 @@ body {
   padding-left: 0;
 }
 .navbar-wrapper .navbar {
+  background-color: orangered;
+  color: black;
   padding-right: 15px;
   padding-left: 15px;
 }
 .navbar-wrapper .navbar .container {
+  background-color: orangered;
+  color: black;
   width: auto;
 }
 
@@ -45,6 +49,8 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  color: gold;
+  font-family: SansSerif;
 }
 
 /* Declare heights because of positioning of img element */
@@ -99,15 +105,15 @@ body {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    margin-top: 0;
   }
   .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
@@ -120,6 +126,7 @@ body {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
+    color: crimson;
   }
 
   .featurette-heading {
